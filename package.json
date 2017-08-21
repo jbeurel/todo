@@ -1,11 +1,19 @@
 {
   "name": "todo",
   "version": "0.1.0",
+  "author": {
+    "name": "Jonathan Beurel",
+    "email": "bejonster@gmail.com"
+  },
   "private": true,
   "dependencies": {
+    "firebase": "^4.3.0",
+    "immutable": "^3.8.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-scripts": "1.0.11"
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "1.0.11",
+    "redux-saga": "^0.15.6"
   },
   "scripts": {
     "start": "react-scripts start",
