@@ -9,16 +9,26 @@
   "dependencies": {
     "firebase": "^4.3.0",
     "immutable": "^3.8.1",
+    "prop-types": "^15.5.10",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.1.2",
     "react-router-redux": "^4.0.8",
     "react-scripts": "1.0.11",
-    "redux-saga": "^0.15.6"
+    "redux": "^3.7.2",
+    "redux-saga": "^0.15.6",
+    "reselect": "^3.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "run-p start.js",
+    "start.js": "cross-env NODE_PATH=. react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "cross-env": "^5.0.5",
+    "npm-run-all": "^4.0.2"
   }
 }
