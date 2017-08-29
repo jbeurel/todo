@@ -3,6 +3,7 @@ import { List } from 'immutable';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import TagList from 'src/views/components/tag-list';
+import AdminOnRest from 'src/views/components/admin-on-rest';
 
 import { tagActions, getTags } from 'src/tags';
 
@@ -14,6 +15,7 @@ const TagsPage = ({tags}) => {
         <TagList
             tags={tags}
         />
+        <AdminOnRest/>
     </div>
   );
 };
