@@ -7,6 +7,8 @@
   },
   "private": true,
   "dependencies": {
+    "admin-on-rest": "^1.2.2",
+    "aor-firebase-client": "^0.0.10",
     "firebase": "^4.3.0",
     "immutable": "^3.8.1",
     "prop-types": "^15.5.10",
